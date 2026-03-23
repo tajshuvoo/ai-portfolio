@@ -3,7 +3,8 @@ import { motion } from 'framer-motion';
 
 export default function About() {
   return (
-    <div className="px-5 lg:px-28 flex justify-between flex-col lg:flex-row" id="about">
+    <div className="py-20 lg:py-32 px-5 lg:px-28 flex justify-between flex-col lg:flex-row" id="about">
+      
       <motion.div
         className="lg:w-1/2"
         initial={{ opacity: 0, x: -50 }}
@@ -21,21 +22,22 @@ export default function About() {
         transition={{ type: "spring", stiffness: 80, damping: 10, delay: 0.2 }}
         viewport={{ once: true }}
       >
-        <h2 className="lg:text-4xl text-2xl mt-4 lg:mt-0">
+        <h2 className="lg:text-4xl text-2xl mt-6 lg:mt-0">
           About <span className="font-extrabold">Me</span>
         </h2>
 
         <p className="text-[#71717A] text-sm/6 lg:text-base mt-5 lg:mt-10">
-          I'm a passionate full-stack developer specializing in **React.js & Node.js**. I thrive on blending technical expertise with sleek UI/UX design to build high-performing, user-friendly applications.
+          I am an AI/ML engineer focused on building intelligent systems powered by large language models. My work includes LLM fine-tuning, model distillation, and multi-agent orchestration.
         </p>
 
         <p className="text-[#71717A] text-sm/6 lg:text-base mt-3 lg:mt-5">
-          My web development journey started in **2015**, and since then, I've continuously evolved, taking on new challenges and keeping up with the latest technologies. Today, I build **cutting-edge web applications** using **Next.js, TypeScript, NestJS, TailwindCSS, Supabase, and more**.
+          I have developed reliability-aware RAG pipelines, multi-agent systems using LangGraph, and production-ready AI applications with FastAPI and modern ML tools. I enjoy designing systems that combine machine learning with real-world applications.
         </p>
 
         <p className="text-[#71717A] text-sm/6 lg:text-base mt-3 lg:mt-5">
-          Beyond coding, I enjoy sharing insights on **Twitter**, engaging with **Indie Hackers**, and following the journey of **early-stage startups**. Feel free to follow me on **Twitter** or check out my projects on **GitHub**.
+          Currently, I am completing my undergraduate degree in Computer Science & Engineering at RUET and actively working on projects in generative AI, LLM systems, and scalable AI pipelines.
         </p>
+
       </motion.div>
     </div>
   );
