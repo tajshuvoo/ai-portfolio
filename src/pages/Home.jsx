@@ -55,7 +55,7 @@ export default function Home() {
             </motion.h2>
 
             <motion.h2>
-              Based In <span className="font-extrabold">Bangladesh.</span>
+              Building<span className="font-extrabold">LLM Systems, RAG Pipelines & Multi-Agent AI.</span>
             </motion.h2>
           </motion.div>
 
